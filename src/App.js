@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Screensize from './components/Screensize';
 import FormExample from './components/FormExample';
+import Multistate from './components/Multistate';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a> 
       </header>*/}
       <FormExample />
+      {/* <Multistate /> */}
     </div>
   );
 }
